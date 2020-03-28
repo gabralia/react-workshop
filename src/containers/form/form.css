@@ -1,0 +1,25 @@
+.form {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.form div, .title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.username input {
+    margin-left: 5px;
+    width: 150px;
+    height: 18px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
+
+.submit-button input{
+    box-sizing: content-box;
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+}
