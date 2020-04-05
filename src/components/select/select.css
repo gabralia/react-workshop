@@ -1,24 +1,18 @@
-.form {
-    width: 25%;
-    margin: 0 auto;
-}
-
-.form > div, .title {
-    margin-top: 20px;
-}
-
-.radio-group > label {
+.select-group label{
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
 }
 
-.form .dropdown-multiple-select{
+.select-group select{
     width: 205px;
     height: 27px;
     border-radius: 5px;
     border: 1px solid #aaa;
     background: #ffffff;
     font-size: 14px;
-    margin-top: 0;
+}
+
+.select-group select[multiple] {
+   height: auto;
 }
