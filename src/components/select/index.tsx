@@ -20,5 +20,4 @@ export const Select = (props: Props) => {
             </select>
         </div>
     )
-
 };
